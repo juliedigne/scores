@@ -53,8 +53,8 @@ left = \relative do' {
     < la_3 mi'_1 >2 < la_3 re_1 >2
   }
   \alternative {
-    { < sold_4 mi'_1>2 mi'4 }
-    { < sold,_4 mi'_1>4 mi4 < la_3 mi'_1 >2\fermata \bar "|." }
+    { < sold_4 mi'_1>2 mi4 }
+    { < sold_4 mi'_1>4 mi4 < la_3 mi'_1 >2\fermata \bar "|." }
   }
 }
 
