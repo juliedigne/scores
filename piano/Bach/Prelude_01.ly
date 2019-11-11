@@ -72,6 +72,6 @@ left = \relative do' {
   >>
   \layout { }
   \midi {
-    \tempo 4=100
+    \tempo 4=88
   }
 }
