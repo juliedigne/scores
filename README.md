@@ -13,6 +13,8 @@ Music List:
     -- Prélude no 1
     -- Prélude no 2
     -- Clavier bien tempéré
+  -- Beethoven
+    -- Hymne à la joie
   -- Brahms
     --Thème pour Clara Schumann
   -- Dvorak
