@@ -1,11 +1,9 @@
 \version "2.18.2"
 \language "italiano"
-
-\header {
-  title = "La Bohème"
-  subtitle = "Extrait de l'opéra"
-  composer = "Giacomo Puccini"
+\paper{
+  print-all-headers = ##t
 }
+
 
 global = {
   \key sol \major
@@ -63,6 +61,12 @@ left = \relative do' {
 }
 
 \score {
+  \header {
+    title = "La Bohème"
+    subtitle = "Extrait de l'opéra"
+    composer = "Giacomo Puccini"
+  }
+
   \new PianoStaff \with {
     instrumentName = "Piano"
   } <<
