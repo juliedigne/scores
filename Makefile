@@ -12,6 +12,10 @@ pdfs: $(PDFS)
 %.pdf %.midi: %.ly
 	lilypond -o $(patsubst %.midi,%,$(patsubst %.pdf,%,$@)) $<
 
+release: release.tar.gz
+release.tar.gz: $(PDFS)
+	tar czvf $@ $^
+
 .PHONY: clean
 clean:
 	rm -f ${PDFS}
