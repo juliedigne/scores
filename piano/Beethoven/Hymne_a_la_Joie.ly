@@ -1,10 +1,7 @@
 \version "2.18.2"
 \language "italiano"
-
-\header {
-  title = "Hymne à la Joie"
-  subtitle = "Thème du 4ème mouvement de la 9ème symphonie"
-  composer = "Ludwig Van Beethoven"
+\paper{
+  print-all-headers = ##t
 }
 
 global = {
@@ -64,6 +61,12 @@ left = \relative do' {
 }
 
 \score {
+  \header {
+    title = "Hymne à la Joie"
+    subtitle = "Thème du 4ème mouvement de la 9ème symphonie"
+    composer = "Ludwig Van Beethoven"
+  }
+
   \new PianoStaff \with {
     instrumentName = "Piano"
   } <<

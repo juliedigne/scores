@@ -1,11 +1,6 @@
 \version "2.18.2"
 \language "italiano"
 
-\header {
-  title = "Prelude N°1"
-  composer = "D'après Bach"
-}
-
 global = {
   \key do \major
   \time 2/4
@@ -60,6 +55,11 @@ left = \relative do' {
 }
 
 \score {
+  \header {
+    title = "Prelude N°1"
+    composer = "D'après Bach"
+  }
+
   \new PianoStaff \with {
     instrumentName = "Piano"
   } <<
