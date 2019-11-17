@@ -2,26 +2,26 @@
 Some public domain scores written in lilypond
 
 Music List:
--- mezzo
-   -- Weber, Freischutz: Kommt ein Schlanker Bursch gegangen.
+- mezzo
+   - Weber, Freischutz: _Kommt ein Schlanker Bursch gegangen._
 
--- duo
-   -- Pazzini, Sempre piango e dir non so
+- duo
+   - Pazzini, _Sempre piango e dir non so_
 
--- piano
-  -- Bach
-    -- Prélude no 1
-    -- Prélude no 2
-    -- Clavier bien tempéré
-  -- Beethoven
-    -- Hymne à la joie
-  -- Brahms
-    --Thème pour Clara Schumann
-  -- Dvorak
-    -- Le Nouveau Monde
-  -- Gospel
-    -- Oh when the saints
-  -- Dornbusch
-    -- Emilie
-  -- Puccini
-    -- La Boheme
+- piano
+  - Bach
+    - _Prélude no 1_
+    - _Prélude no 2_
+    - _Clavier bien tempéré_
+  - Beethoven
+    - _Hymne à la joie_
+  - Brahms
+    - _Thème pour Clara Schumann_
+  - Dvorak
+    - _Le Nouveau Monde_
+  - Gospel
+    - _Oh when the saints_
+  - Dornbusch
+    - _Emilie_
+  - Puccini
+    - _La Boheme_
