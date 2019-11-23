@@ -25,3 +25,5 @@ Music List:
     - _Emilie_
   - Puccini
     - _La Boheme_
+  - Comptines
+    - _Un Grand Cerf_
