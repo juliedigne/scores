@@ -54,7 +54,7 @@ left = \relative do' {
 
   si4_5 <re_3 sol_1>4
   mi_4 <sol_2 si_1>4
-  la,_5 <mi'_2 sol_2>4
+  la,_5 <mi'_2 sol_1>4
   re4_5 <la'_2 do_1>4
   sol,4_5 <sol'_2 si_1>4
   sol,4 <sol' si>
