@@ -19,7 +19,7 @@ right = \relative do'' {
   \override Hairpin.to-barline = ##f
   % Music follows here.
   do4^5\f si^4
-  si\> sol^2
+  do\> sol^2
   la fa^1
   mi8^3\p\< re^2 mi^3 fa^1\!
   \break
