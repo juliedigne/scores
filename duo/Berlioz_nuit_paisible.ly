@@ -272,6 +272,10 @@ lower = \relative c' {
           \\
           {gis,8 r r gis r r}
         >>
+        \clef bass |
+        <fis, a>4 r8 <a fis'>4 r8 |
+        <gis b>4 r8 <gis b>4 r8 |
+        <cis gis'>4 r8 <cis gis'>4 r8 |
 
 }
 
