@@ -213,6 +213,7 @@ upper = \relative c {
         \autoBeamOff
         cis'16_\pp([gis') e( cis) gis'( e)] cis16([gis') e (cis) gis'( e)]|
         cis16([gis') e (cis) gis'( e)] cis([ a') fis8] r8|
+        dis16[(a') fis (dis) a' (fis)] cis[a' fis8] r8|
         dis16[(b') fis (dis) b' (fis)] cis[(a')  fis(cis)] cis'8|
         <a' fis>4.
         <<{
@@ -231,8 +232,22 @@ upper = \relative c {
         fis[(bis) a (fis) bis(a)] e[(cis') gis(e) cis' (gis)]|
         fis[(b) a(fis) b(a)] fis[(b) a (fis)] r8|
         \ottava #1
-        b'16[b'16] r16
-        
+        \tuplet 3/2 8 {b'16[b'16] r16 b,16[b'16] r16 b,16[b'16] r16 b,16[b'16] r16 b,16[b'16] r16} r8 |
+
+        \tuplet 3/2 8 {b,16[b'16] r16 b,16[b'16] r16 b,16[b'16] r16 b,16[b'16] r16 b,16[b'16] r16} r8 |
+        \tuplet 3/2 8 {b,16[b'16] r16 b,16[b'16] r16 b,16[b'16] r16 b,16[b'16] r16 b,16[b'16] r16} r8 |
+        \tuplet 3/2 8 {b,16[b'16] r16 b,16[b'16] r16 b,16[b'16] r16 b,16[b'16] r16 b,16[b'16] r16} r8 |
+        \tuplet 3/2 8 {b,16[b'16] r16 b,16[b'16] r16 b,16[b'16] r16 b,16[b'16] r16 b,16[b'16] r16} r8 |
+        \tuplet 3/2 8 {b,16[b'16] r16 b,16[b'16] r16 b,16[b'16] r16 b,16[b'16] r16 b,16[b'16] r16} r8 |
+        \tuplet 3/2 8 {b,16[b'16] r16 b,16[b'16] r16 b,16[b'16] r16 b,16[b'16] r16} r8 r8|
+        \tuplet 3/2 8 {b,16[b'16] r16 b,16[b'16] r16} r8 \tuplet 3/2 8 {b,16[b'16] r16} r8 r8 |
+        \ottava #0
+        <<{
+          cis,,8.[e16 dis cis] bis8 bis16([cis) bis (cis)]
+          }\\
+          { 
+          }
+        >>
 }
 
 lower = \relative c' {
