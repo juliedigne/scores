@@ -93,8 +93,7 @@ texta = \lyricmode{
   Har_- mo_- ni_- es, in_- fi_- ni_- es
   Que vous a -_vez d'at -traits
   Et de char -mes se -crets
-  Pour les â_- mes at_- ten_- dri_-es
-  
+  Pour les â_- mes at__- ten___- dri__- es  
 }
 
 
@@ -203,7 +202,7 @@ textb =\lyricmode{
   Har_- mo_- ni_- es, in_- fi_- ni_- es
   Que vous a -_vez d'at -traits
   Et de char -mes se -crets
-  Pour les â_- mes at_- ten_- dri_-es
+  Pour les â_- mes at__- ten___- dri__- es
 }  
 
      
@@ -212,7 +211,28 @@ upper = \relative c {
         \key e \major
         \time 6/8
         \autoBeamOff
-        r2.
+        cis'16_\pp([gis') e( cis) gis'( e)] cis16([gis') e (cis) gis'( e)]|
+        cis16([gis') e (cis) gis'( e)] cis([ a') fis8] r8|
+        dis16[(b') fis (dis) b' (fis)] cis[(a')  fis(cis)] cis'8|
+        <a' fis>4.
+        <<{
+           <fis dis>8([<gis e> <a fis>])        
+           b4(gis8) e4 
+          }\\
+          {
+            b4 r8
+            e4. b8
+          }
+        >>
+        b16([gis])|
+        cis,16[(a') fis (cis) a' (fis)] dis16[(b') fis (dis) b' (fis)]
+        e[(b') gis (e) b'(gis)] e[(b') gis (e) b'(gis)]|
+        e[(cis') gis (e) cis'(gis)] e[(cis') gis (e) cis'(gis)]|
+        fis[(bis) a (fis) bis(a)] e[(cis') gis(e) cis' (gis)]|
+        fis[(b) a(fis) b(a)] fis[(b) a (fis)] r8|
+        \ottava #1
+        b'16[b'16] r16
+        
 }
 
 lower = \relative c' {
@@ -221,6 +241,10 @@ lower = \relative c' {
         \time 6/8
         \autoBeamOff
         r2.
+        <gis e cis>4 r8 <gis e gis,>4 r8
+        <fis a,>4 r8 <fis a,>4 r8
+        <fis a,>4 r8 <fis a,>4 r8
+        \clef treble
 }
 
 \score {
