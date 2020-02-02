@@ -303,8 +303,8 @@ upper = \relative c {
             <cis a>[<dis b> <e cis>] %<fis dis>[ <gis e> <a fis>]|
           }>>
         <b' b,>4 r8_"Rit." e,4 e8 |
-        <gis e b>4.( <fis dis>8)[<e b> <dis b>]|
-        <fis dis a>4.(<e gis,>4) <e' gis,>8^"Tempo"
+        <gis e b>4.^( <fis dis>8)[<e b> <dis b>]|
+        <fis dis a>4.^(<e gis,>4) <e' gis,>8^"Tempo"
         
         <gis e b>4.(<fis dis a>8)[<e b gis> <dis b fis>]
         <e b gis>4 r8 <e b gis>4 r8
@@ -416,6 +416,23 @@ lower = \relative c' {
           \\
           {d,!4 r8 d4 r8}
         >>
+        <<{g8[dis dis] dis[dis dis]}\\{g[ g, dis] g[ g g]}>>
+        <<{f'4 f8(f8) f4}\\{f,4 r8 f4 r8}>>|
+        <<{e'4 e8(e) e4}\\{e,4 r8 e4 r8}>>|
+        <<{ees'4 ees8(ees) ees8}\\{ees,4 r8 ees4 r8}>>|
+        <<{d'4 ees16(ees16) d4 r8}\\{d,4 r8 d4 r8}>>|
+        <<{cis'8^\>[cis cis] ais4^\! r8}\\{cis,4 r8 ais4}>>|
+        <<{b'8[b b] gis4 r8}\\{b,4 r8 gis4}>>|
+        <<{a'8[a a] fis4 r8}\\{a,4 r8 fis4}>>|
+        <b' b,>4 r8 <dis dis,>4 r8|
+        <fis fis,>4 r8 r4 r8|
+        <fis b,>4 r8 cis4 cis8|
+        <b b,>4.^(<b b,>8)[b b]|
+        <b e,>4. <b e,>16 b'16[gis (e) b' e,]
+        e16[(b') gis (e) b'(gis)] <<{fis[b gis b a b]}\\{b,4 r8}>>
+        <<{gis'16[b gis b gis b] gis16[b gis b gis b]}\\{e,4 r8 e4 r8}>>
+        <gis e>4. r4 r8
+        
 }
 
 \score {
@@ -425,7 +442,7 @@ lower = \relative c' {
      \set Staff.midiInstrument = #"piccolo"
      %\set Staff.midiMinimumVolume = #0.8
      %\set Staff.midiMaximumVolume = #0.8
-      \context Voice = Soprano   {\highvoice }
+      \context Voice = Hero  {\highvoice }
       \addlyrics{\texta}
     >>
         \context Staff = medvoice
@@ -433,7 +450,7 @@ lower = \relative c' {
       \set Staff.midiInstrument = #"clarinet"
       %\set Staff.midiMinimumVolume = #0.3
       %\set Staff.midiMaximumVolume = #0.3
-      \context Voice = Mezzo  {\medvoice }
+      \context Voice = Ursule  {\medvoice }
       \addlyrics{\textb}
     >>
       \new PianoStaff <<
