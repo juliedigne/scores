@@ -277,6 +277,84 @@ lower = \relative c' {
         <gis b>4 r8 <gis b>4 r8 |
         <cis gis'>4 r8 <cis gis'>4 r8 |
 
+        <dis a'>4 r8 <e gis>4 r8 |
+        <dis b>4 r8 <b' dis>4 \clef treble b'16[( a])^\pp | %FIXME: \pp devrait être sur la barre de mesure
+        e[( b') gis( e) b'( gis)] e[( b') gis( e) cis'( e,)]
+        <<
+          {fis_([ b) a_( fis) b_( a)] fis_([ b) a_( fis) b_( a)]}
+        \\
+        {b,8 r r b r r}
+        >> |
+        <<
+          {gis'16[_( b) gis_( e) b'_( gis)] gis[_( b) gis_( e) b_( gis)]}
+          \\
+          {e'8 s s s s s}
+        >> \clef bass|
+        e,8 \clef treble \repeat tremolo 4 {dis'32 fis} \repeat tremolo 4 {dis32. fis} \clef bass |
+        e,8 \clef treble \repeat tremolo 4 {dis'32 fis} \clef bass e,8 \clef treble \repeat tremolo 4 {e'32 g} |
+        <<
+          {cis,16[_( g') e_( cis) ais'_( g)] e[_( cis) cis'_( ais) fis_( e)]}
+          \\
+          {cis8 r r ais r r}
+        >> |
+        <<
+          {dis'16[( b) fis( dis) dis'( b)] fis[ dis dis'( b) fis( dis)]}
+          \\
+          {b8 r r b r r}
+        >> |
+        <e gis b e>8 <e' gis>8[( <b fis'>] <gis e'>) <gis e'>[( <b dis>)] \clef bass |
+        <a,, fis'>4 r8 <gis gis'>4 r8 |
+        <<
+          {gis'8[ gis gis] gis[ gis gis]}
+          \\
+          {gis,4 r8 gis4 r8}
+        >> |
+        <<
+          {bis'8[ bis bis] b[( a) a]}
+          \\
+          {gis4 r8 fis4 r8}
+        >> |
+        <<
+          {gis4 r8 r4 r8}
+          \\
+          {e8[\f e e] e[ e e]}
+        >> |
+        <<
+          {r8 b'[ b] b[ b b]}
+          \\
+          {e,4 r8 e4 r8}
+        >> |
+        <<
+          {fis8[ fis fis] gis[ gis gis]}
+          \\
+          {a,4 r8 a4 r8}
+        >> |
+        <<
+          {fis'8[ fis fis] gis[ gis gis]}
+          \\
+          {a,4 r8 a4 r8}
+        >> |
+        <<
+          {bis'8[ bis bis] b[( b) b]}
+          \\
+          {gis4 r8 fis4 r8}
+        >> |
+        <<
+          {gis4 r8 e[ e e]}
+          \\
+          {e8[ e e] fis,4 r8}
+        >> |
+        <<
+          {gis'8[ a b] gis[ a b]}
+          \\
+          {e,4 r8 e4 r8}
+        >> |
+        a8[ <a, e'> <a e'>] <a e'>_[ <a e'> <a e'>] |
+        <<
+          {fis'8[( g) a] fis[( g) a]}
+          \\
+          {d,!4 r8 d4 r8}
+        >>
 }
 
 \score {
