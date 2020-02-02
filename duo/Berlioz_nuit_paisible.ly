@@ -243,8 +243,21 @@ lower = \relative c' {
         r2.
         <gis e cis>4 r8 <gis e gis,>4 r8
         <fis a,>4 r8 <fis a,>4 r8
-        <fis a,>4 r8 <fis a,>4 r8
+        <fis a,>4 r8 <fis a,>4
         \clef treble
+        a'16[ fis] |
+        <<
+          {cis_([ a') fis_( cis) a'_( fis)] a,_([ b') fis_( dis) b'_( fis)]}
+          \\
+          {fis,8 r r r r r}
+        >>
+        |
+        <<
+          {gis16[_( b') gis_( e) b'( gis)] gis,[_( b') gis( e)] }
+          \\
+          {gis,8 r r gis r r}
+        >>
+
 }
 
 \score {

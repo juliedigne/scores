@@ -13,7 +13,6 @@ rit = \markup { \bold ritenuto }
 
 right = \relative do'' {
   \global
-  % Make nuance stops on the note instead of on the straff
   % Music follows here.
   r4 r8 si^3(
   re2\p
@@ -31,6 +30,7 @@ right = \relative do'' {
   re2)
   sol,4.^1( sol8)
   do4( si8 si8
+  % Make nuance stops on the note instead of on the straff
   \override Hairpin.to-barline = ##f
   la8\>^\rit si8 sol8 la8
   sol2\!
