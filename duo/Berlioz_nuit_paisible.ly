@@ -37,8 +37,8 @@ highvoice=\relative c' {
   cis8.([e16 dis cis]) bis8 bis16[cis] bis16[cis]
   bis16[cis] bis16[cis] bis16[cis] bis4.
   
-  r8 gis a b cis dis
-  e4.^\f(e8) r8 b16 b16
+  r8^"Poco cresc." gis a b cis dis
+  e4.^\f(e8) r8 b16^\pp b16
   gis'4(fis8) e4 dis8
   
   cis8.([e16 dis cis]) bis8 bis16[cis] bis16[cis]
@@ -128,8 +128,8 @@ medvoice=\relative c' {
   a4 fis8 dis4 r8|
   r8 dis16([e]) dis16([e]) dis16([e]) dis16([e]) dis16([e])|
   
-  dis8 dis dis dis e fis|
-  gis4.^\f(gis8) r8 b16 b|
+  dis8^"Poco cresc." dis dis dis e fis|
+  gis4.^\f(gis8) r8 b16^\pp b|
   e4(b8) gis4 b8|
   a4 fis8 dis4 r8|
   r8 dis16([e]) dis16([e]) dis16([e]) dis16([e]) dis16([e])|
@@ -243,11 +243,72 @@ upper = \relative c {
         \tuplet 3/2 8 {b,16[b'16] r16 b,16[b'16] r16} r8 \tuplet 3/2 8 {b,16[b'16] r16} r8 r8 |
         \ottava #0
         <<{
-          cis,,8.[e16 dis cis] bis8 bis16([cis) bis (cis)]
+          cis,,8.[e16 dis cis] bis8 bis16([cis) bis (cis)] 
+          bis16([cis) bis(cis) bis(cis)] bis8[bis bis]|
+          r8 gis8[a] b[cis dis] |
+          gis16^\f_([e b gis) gis'_( e] b[ gis) gis'_(e b gis)]
           }\\
-          { 
+          { a4( fis8 dis4) r8|
+            r8 dis16[(e) dis (e)] dis[(e) dis (e) dis (e)]|
+            dis8[dis dis] dis [e fis] 
+            <b gis>8\sustainOn
           }
         >>
+        <e b gis>8 <gis e>8([<fis b,>] <e gis,>) <e gis,>8([<dis b>])
+        
+        <<{
+          cis8.[e16( dis cis)] bis8 bis16[(cis) bis (cis)]|
+          bis16[(cis) bis (cis) bis (cis)] bis8[bis bis]
+          r8 gis[a] b[cis dis]|
+          }\\
+        {
+          a4( fis8 dis4) r8|
+          r8 dis16[(e) dis (e)] dis[(e) dis (e) dis (e)]|
+          dis8[dis dis] dis[e fis]|
+        }
+        >>
+        <gis' b, gis>16^[_(e b gis) gis'_(e] b^[gis) gis'_( e b gis)]
+        <d' b>16([e, <cis' a> e, <b' gis> e,]) <d' b>([e, <cis' a> e, <b' gis> e,]) |
+        <cis' a>([e, <cis' a> e, <cis' a> e,])  <cis' a>([e, <cis' a> e, <cis' a> e,]) |
+        
+        <c' a>([d, <b' g> d, <a' fis> d,]) <c' a>([d, <b' g> d, <a' fis> d,]) |
+        <b' g>([dis, <b'g> dis,) <a' fis> <c a>] <b g>[dis, <b' g> dis, <b' g> dis,]|
+        <<{
+          <d' b>8[(cis b]) d([cis b])
+          cis4(b16[ais]) ais4 ais8
+          }\\
+          {
+            <gis d>4 <gis d>8( <gis d>8) <gis d>4 |
+            ais4 fisis8 fisis4 fisis8 |
+          }
+        >>
+        <<{
+          <c' a>8([b a]) <c a>8([b a])|
+          b4 a16[cis]  b4 r8
+          }\\
+          {
+            fis8 fis4 fis4 fis8 |
+            <gis eis>4 fis16[ <a fis>16] <gis eis>4
+          }
+        >>
+        <e' cis g>16^[ <e cis g>8  <e cis g>8  <e cis g>16](  <e cis g>4.)|
+        <dis b fis>16^[<dis b fis>8 <dis b fis>8 <dis b fis>16](<dis b fis>4.)|
+        <cis a e>16^[<cis a e>8 <cis a e>8 <cis a e>16](<cis a e>4.)|
+        <<{
+          <b gis>8([<a fis> <gis e>]) fis4.(
+          fis4.) <fis dis>8[<gis e> < a fis>]
+          }\\
+          {
+            dis,4 r8 <dis b>8[<e cis> <dis b>] |
+            <cis a>[<dis b> <e cis>] %<fis dis>[ <gis e> <a fis>]|
+          }>>
+        <b' b,>4 r8_"Rit." e,4 e8 |
+        <gis e b>4.( <fis dis>8)[<e b> <dis b>]|
+        <fis dis a>4.(<e gis,>4) <e' gis,>8^"Tempo"
+        
+        <gis e b>4.(<fis dis a>8)[<e b gis> <dis b fis>]
+        <e b gis>4 r8 <e b gis>4 r8
+        <e b gis>4. r4 r8
 }
 
 lower = \relative c' {
