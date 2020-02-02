@@ -1,11 +1,9 @@
 \version "2.18.2"
 \language "italiano"
-
-\header {
-  title = "Thème Pour Clara Schumann"
-  subtitle = "Arrangement en La mineur (basé sur l'arr. par Brahms des Sextet, op.18)"
-  %composer = "Brahms"
+\paper{
+  print-all-headers = ##t
 }
+
 
 global = {
   \key do \major
@@ -59,6 +57,12 @@ left = \relative do' {
 }
 
 \score {
+  \header {
+    title = "Thème Pour Clara Schumann"
+    subtitle = "Arrangement en La mineur (basé sur l'arr. par Brahms des Sextet, op.18)"
+    %composer = "Brahms"
+  }
+
   \new PianoStaff \with {
     instrumentName = "Piano"
   } <<
