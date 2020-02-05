@@ -1,8 +1,9 @@
 \version "2.10.10"
 \header {
   title = "Nuit paisible et sereine"
+  subtitle= "Duo Nocturne de l'opéra \"Béatrice et Bénédicte\""
   composer = "Hector Berlioz"
-  arranger ="Transcription Julie Digne"
+  copyright = "Gravure lilypond par Julie Digne"
 }
 
 
@@ -284,7 +285,7 @@ upper = \relative c {
         >>
         <<{
           <c' a>8([b a]) <c a>8([b a])|
-          b4 a16[cis]  b4 r8
+          b4 a16[c]  b4 r8
           }\\
           {
             fis8 fis4 fis4 fis8 |
@@ -339,7 +340,7 @@ lower = \relative c' {
         <cis gis'>4 r8 <cis gis'>4 r8 |
 
         <dis a'>4 r8 <e gis>4 r8 |
-        <dis b>4 r8 <b' dis>4 \clef treble b'16[( a])^\pp | %FIXME: \pp devrait être sur la barre de mesure
+        <b' dis,>4 r8 <b dis>4 \clef treble b'16[( a])^\pp | %FIXME: \pp devrait être sur la barre de mesure
         e[( b') gis( e) b'( gis)] e[( b') gis( e) cis'( e,)]
         <<
           {fis_([ b) a_( fis) b_( a)] fis_([ b) a_( fis) b_( a)]}
@@ -388,22 +389,22 @@ lower = \relative c' {
         <<
           {fis8[ fis fis] gis[ gis gis]}
           \\
-          {a,4 r8 a4 r8}
+          {a,4 r8 gis4 r8}
         >> |
         <<
           {fis'8[ fis fis] gis[ gis gis]}
           \\
-          {a,4 r8 a4 r8}
+          {gis,4 r8 gis4 r8}
         >> |
         <<
-          {bis'8[ bis bis] b[( b) b]}
+          {bis'8[ bis bis] b[( a) a]}
           \\
           {gis4 r8 fis4 r8}
         >> |
         <<
           {gis4 r8 e[ e e]}
           \\
-          {e8[ e e] fis,4 r8}
+          {e8[ e e] e,4 r8}
         >> |
         <<
           {gis'8[ a b] gis[ a b]}
@@ -426,7 +427,7 @@ lower = \relative c' {
         <<{a'8[a a] fis4 r8}\\{a,4 r8 fis4}>>|
         <b' b,>4 r8 <dis dis,>4 r8|
         <fis fis,>4 r8 r4 r8|
-        <fis b,>4 r8 cis4 cis8|
+        <fis b,>4 r8 e4 e8|
         <b b,>4.^(<b b,>8)[b b]|
         <b e,>4. <b e,>16 b'16[gis (e) b' e,]
         e16[(b') gis (e) b'(gis)] <<{fis[b gis b a b]}\\{b,4 r8}>>
@@ -439,6 +440,8 @@ lower = \relative c' {
   <<
     \context Staff = highvoice
     <<
+      \set Staff.vocalName = \markup \smallCaps Hero
+      \set Staff.shortVocalName = \markup \smallCaps H.
      \set Staff.midiInstrument = #"piccolo"
      %\set Staff.midiMinimumVolume = #0.8
      %\set Staff.midiMaximumVolume = #0.8
@@ -447,6 +450,8 @@ lower = \relative c' {
     >>
         \context Staff = medvoice
     <<
+      \set Staff.vocalName = \markup \smallCaps Ursule
+      \set Staff.shortVocalName = \markup \smallCaps U.
       \set Staff.midiInstrument = #"clarinet"
       %\set Staff.midiMinimumVolume = #0.3
       %\set Staff.midiMaximumVolume = #0.3
