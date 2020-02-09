@@ -562,8 +562,8 @@ upper = \relative c {
         %recit
         \time 4/4
         r2 <dis, gis,>4 r
-        e2^"Lento"(dis2)|
-        cis2 r2|
+        e2^"Lento"\(dis2|
+        cis2\) r2|
         <<{fis2(fis4) fisis}\\{dis1}>>
         <<{gis'2(gis8.[a16]) fis8.([gis16])}\\{b,2(b8.[dis16]) bis8.([cis16])}>>
         <<{e4}\\{cis4}>> r4 r2
@@ -821,6 +821,164 @@ lower = \relative c' {
         <<{gis'16[b gis b gis b] gis16[b gis b gis b]}\\{e,4 r8 e4 r8}>>
         <gis e>4. r4 r8
         
+        %recit
+        \time 4/4
+        r2 gis,4 r4
+        cis'2\(b|
+        a\) r2 |
+        <dis b>2(<cis a>)|
+        <dis b gis>4 <dis gis,>4 <dis gis,>4 <dis gis,>4|
+        
+        <<{<cis gis>2 r2}\\{cis,1}>>|
+        dis2 dis,2(|
+        e2) gis2|
+        
+        \time 6/8
+        \repeat tremolo 12{fisis32 dis'}|
+        \repeat tremolo 12{fisis,32 dis'}|
+        fis,16[(aisis) fis(dis) aisis'(fis)] dis[(dis') aisis(fis) dis'(dis,)]|
+        \repeat tremolo 12{gis32 gis'}|
+        \repeat tremolo 12{gis,32 dis'}|
+        
+        \repeat tremolo 12{gis,32 dis'}|
+        \repeat tremolo 6{gis,32 e'} gis16[(e <fis dis>8 <gis d>])|
+        <a cis,>8([a, <a' cis,>] a,[<a' cis,> a,])|
+        <a' cis,>8([a, <a' cis,>]) \repeat tremolo 6 {a,32 a'32}|
+        
+        \repeat tremolo 6 {a,32 a'32} \repeat tremolo 6 {a,32 a'32}|
+        \repeat tremolo 6 {cis,32 cis'32} \repeat tremolo 6 {<ais dis,>32 dis32}|
+        \repeat tremolo 6 {gis,32 dis'32} \repeat tremolo 6 {gis,32 dis'32}|
+        \repeat tremolo 12 {gis,32 dis'32}|
+        \repeat tremolo 12 {gis,32 dis'32}|
+        cis8 cis,32[cis' cis, cis'] cis,32[cis' cis, cis'] <b dis,>8 r8^\fermata r8|
+        r8 dis,,32[dis' dis, dis'] dis,[dis' dis, dis'] e,8 r8^\fermata r8
+        
+        <<{cis''2.}\\{dis,4 r8 dis4 r8}>>
+        gis,4 r8 r4 r8|
+        \clef treble
+        gis'16[(gis') dis (b) gis'(dis)] bis16[(gis') dis (bis) gis'(dis)]|
+        cis[(gis') e (cis)] r8  \clef bass <gis gis,>4 r8|
+       
+       %reprise
+       <fis a,>4 r8 <fis a,>4 r8
+        <fis a,>4 r8 <fis a,>4
+        \clef treble
+        a'16[ fis] |
+        <<
+          {cis_([ a') fis_( cis) a'_( fis)] a,_([ b') fis_( dis) b'_( fis)]}
+          \\
+          {fis,8 r r r r r}
+        >>
+        |
+        <<
+          {gis16[_( b') gis_( e) b'( gis)] gis,[_( b') gis( e)] }
+          \\
+          {gis,8 r r gis r r}
+        >>
+        \clef bass |
+        <fis, a>4 r8 <a fis'>4 r8 |
+        <gis b>4 r8 <gis b>4 r8 |
+        <cis gis'>4 r8 <cis gis'>4 r8 |
+
+        <dis a'>4 r8 <e gis>4 r8 |
+        <b' dis,>4 r8 <b dis>4 \clef treble b'16[( a])^\pp | %FIXME: \pp devrait être sur la barre de mesure
+        e[( b') gis( e) b'( gis)] e[( b') gis( e) cis'( e,)]
+        <<
+          {fis_([ b) a_( fis) b_( a)] fis_([ b) a_( fis) b_( a)]}
+        \\
+        {b,8 r r b r r}
+        >> |
+        <<
+          {gis'16[_( b) gis_( e) b'_( gis)] gis[_( b) gis_( e) b_( gis)]}
+          \\
+          {e'8 s s s s s}
+        >> \clef bass|
+        e,8 \clef treble \repeat tremolo 4 {dis'32 fis} \repeat tremolo 4 {dis32. fis} \clef bass |
+        e,8 \clef treble \repeat tremolo 4 {dis'32 fis} \clef bass e,8 \clef treble \repeat tremolo 4 {e'32 g} |
+        <<
+          {cis,16[_( g') e_( cis) ais'_( g)] e[_( cis) cis'_( ais) fis_( e)]}
+          \\
+          {cis8 r r ais r r}
+        >> |
+        <<
+          {dis'16[( b) fis( dis) dis'( b)] fis[ dis dis'( b) fis( dis)]}
+          \\
+          {b8 r r b r r}
+        >> |
+        <e gis b e>8 <e' gis>8[( <b fis'>] <gis e'>) <gis e'>[( <b dis>)] \clef bass |
+        <a,, fis'>4 r8 <gis gis'>4 r8 |
+        <<
+          {gis'8[ gis gis] gis[ gis gis]}
+          \\
+          {gis,4 r8 gis4 r8}
+        >> |
+        <<
+          {bis'8[ bis bis] b[( a) a]}
+          \\
+          {gis4 r8 fis4 r8}
+        >> |
+        <<
+          {gis4 r8 r4 r8}
+          \\
+          {e8[\f e e] e[ e e]}
+        >> |
+        <<
+          {r8 b'[ b] b[ b b]}
+          \\
+          {e,4 r8 e4 r8}
+        >> |
+        <<
+          {fis8[ fis fis] gis[ gis gis]}
+          \\
+          {a,4 r8 gis4 r8}
+        >> |
+        <<
+          {fis'8[ fis fis] gis[ gis gis]}
+          \\
+          {gis,4 r8 gis4 r8}
+        >> |
+        <<
+          {bis'8[ bis bis] b[( a) a]}
+          \\
+          {gis4 r8 fis4 r8}
+        >> |
+        <<
+          {gis4 r8 e[ e e]}
+          \\
+          {e8[ e e] e,4 r8}
+        >> |
+        <<
+          {gis'8[ a b] gis[ a b]}
+          \\
+          {e,4 r8 e4 r8}
+        >> |
+        a8[ <a, e'> <a e'>] <a e'>_[ <a e'> <a e'>] |
+        <<
+          {fis'8[( g) a] fis[( g) a]}
+          \\
+          {d,!4 r8 d4 r8}
+        >>
+        <<{g8[dis dis] dis[dis dis]}\\{g[ g, dis] g[ g g]}>>
+        <<{f'4 f8(f8) f4}\\{f,4 r8 f4 r8}>>|
+        <<{e'4 e8(e) e4}\\{e,4 r8 e4 r8}>>|
+        <<{ees'4 ees8(ees) ees8}\\{ees,4 r8 ees4 r8}>>|
+        <<{d'4 ees16(ees16) d4 r8}\\{d,4 r8 d4 r8}>>|
+        <<{cis'8^\>[cis cis] ais4^\! r8}\\{cis,4 r8 ais4}>>|
+        <<{b'8[b b] gis4 r8}\\{b,4 r8 gis4}>>|
+        <<{a'8[a a] fis4 r8}\\{a,4 r8 fis4}>>|
+        <b' b,>4 r8 <dis dis,>4 r8|
+        <fis fis,>4 r8 r4 r8|
+        <fis b,>4 r8 e4 e8|
+        <b b,>4.^(<b b,>8)[b b]|
+        <b e,>4. <b e,>16 b'16[gis (e) b' gis(]
+        e4.) b8 r8 r8|
+        e4. b8 r8 r8 |
+        <<{b[e e] e[ e e]}\\{e,4 r8 r4 r8}>>|
+        e'4 r8 <gis e>4 r8|
+        <<{gis8^.[ b^. e^.] gis,8^.[ b^. e^.]}\\{e,4_"Pizzicato" r8 e4_\ppp r8 }>>|
+        a8^.[cis fis] a,8^.[b^. dis^.]|
+        
+       
 }
 
 \score {
