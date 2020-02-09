@@ -733,6 +733,13 @@ upper = \relative c {
         <dis, fis>4. <b' dis>4\>^( <a cis>8\!) |
         <cis, e>4. \once \stemUp <a' cis>4\>_( <gis b>8\!) |
         <gis b>_([ <fis a> <e gis>)] <dis fis>_([ <cis e> <b dis>)] |
+
+        <a cis>8[( <b dis> <cis e>] <dis fis>[ <e gis> <fis a>]) |
+        <dis b'>4 r8 <cis e>4 <cis e>8 |
+        <e gis>4._(^( <dis fis>8))[ <b e> <b dis>] |
+        <a fis'>4.( <gis e'>4 <e gis>8 |
+        <gis b>4. r4 r8
+        
 }
 
 lower = \relative c' {
@@ -1026,6 +1033,12 @@ lower = \relative c' {
         b,[ dis fis] gis,_[ dis' fis] |
         a,_[ cis e] fis,_[ cis' e] |
         b4 r8 <dis b'>4 r8 |
+
+        fis4 r8 r4 r8 |
+        b,8[ fis b]^( cis[) a cis] |
+        b[ e, gis] b[ fis b] |
+        b[ e, b'] e,[ b' e,] |
+        r8 b'[ e,] <fis' a>[( <e gis> <dis fis>])
 }
 
 \score {
