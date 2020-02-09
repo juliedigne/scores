@@ -182,7 +182,7 @@ highvoice=\relative c' {
   r2.
   
   %end of the singing part
-  r2.*25
+  r2.*4
      }
 
 texta = \lyricmode{
@@ -427,7 +427,7 @@ medvoice=\relative c' {
   r2.
 
   %end of the singing part
-  r2.*25
+  r2.*4|
      }
 
      
@@ -812,7 +812,7 @@ lower = \relative c' {
 \time 6/8
         <<{gis'2.}\\{bis,4\) r8 r4 r8}>>|
         r2.
-        <gis e cis>4 r8 <gis e gis,>4 r8
+        <gis' e cis>4 r8 <gis e gis,>4 r8
         <fis a,>4 r8 <fis a,>4 r8
         <fis a,>4 r8 <fis a,>4
         \clef treble
