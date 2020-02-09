@@ -309,6 +309,42 @@ upper = \relative c {
         <gis e b>4.(<fis dis a>8)[<e b gis> <dis b fis>]
         <e b gis>4 r8 <e b gis>4 r8
         <e b gis>4. r4 r8
+
+        <<
+          {b'4( gis8) e4 e'8}
+          \\
+          {gis,8 e b gis4 gis'8}
+        >> |
+        <<
+          {e'4. dis8[( cis8.) bis16]}
+          \\
+          {fis4. fis8[ fis8. f16_\markup {"check"}]}
+        >> |
+        <<
+          {bis4 r4 r8 cis8(}
+          \\
+          {fis,4 r4 r8 e8}
+        >> |
+        <<
+          {fis,4) e8 s8 s4}
+          \\
+          {b4 b8 <fis' a>[^( <e gis>) <dis fis>]}
+        >> |
+        <<
+          {s2 s8 cis''8(}
+          \\
+          {<e, gis>4^( <gis b>8) <gis b>4 r8}
+        >> |
+
+        <<
+          {cis8[) fis, gis] a[^( gis fis])}
+          \\
+          {dis4 e8 fis[ e dis]}
+        >> |
+        <e gis>4. <cis e>4\>^( <b dis>8\!) |
+        <dis, fis>4. <b' dis>4\>^( <a cis>8\!) |
+        <cis, e>4. \once \stemUp <a' cis>4\>_( <gis b>8\!) |
+        <gis b>_([ <fis a> <e gis>)] <dis fis>_([ <cis e> <b dis>)] |
 }
 
 lower = \relative c' {
@@ -432,7 +468,18 @@ lower = \relative c' {
         e16[(b') gis (e) b'(gis)] <<{fis[b gis b a b]}\\{b,4 r8}>>
         <<{gis'16[b gis b gis b] gis16[b gis b gis b]}\\{e,4 r8 e4 r8}>>
         <gis e>4. r4 r8
-        
+
+        e8[ b' e] gis,[ b e] |
+        ais,[ cis e] ais,[ cis e] |
+        a,![ fis dis] e[ gis cis] |
+        dis,[ fis b] dis,[ fis b] |
+        e,[ b' e] e,[ b' e] |
+
+        b[ dis b] dis,[ fis b] |
+        e,[ gis b] ais,[ e' g] |
+        b,[ dis fis] gis,_[ dis' fis] |
+        a,_[ cis e] fis,_[ cis' e] |
+        b4 r8 <dis b'>4 r8 |
 }
 
 \score {
