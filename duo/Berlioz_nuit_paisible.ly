@@ -798,8 +798,9 @@ upper = \relative c {
         \repeat tremolo 8 {<e' gis b>32. e'} |
         \repeat tremolo 8 {<fis, a c!>32. dis'} |
         \repeat tremolo 8 {<f, gis b>32. d'} |
-        \repeat tremolo 8 {<e, g ais>32. cis'} |
+        \repeat tremolo 8 {<e, g ais>32._\markup {\italic {Perdendo}} cis'} |
         \repeat tremolo 8 {<dis, fis a!>32. c'} |
+
 }
 
 lower = \relative c' {
