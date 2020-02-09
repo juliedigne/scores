@@ -9,11 +9,25 @@
 
 highvoice=\relative c' { 
         \clef treble
-        \time 6/8
+        \time 4/4
 	\key e \major
   \autoBeamOff
+    r1^"Lento"
+  r1
+  r1
+  r2^"Recit." r4 r8 gis'16 gis|
+  a4. a8 a4 gis8. gis16|
+  gis4 fis8 r8 r8 fis16 fis \tuplet 3/2 8{fis8 gis a}|
+  dis,4 r8 fis16 gis a4 gis8 fisis|
+  gis4 r4 r2|
+  r4 cis8. gis16 gis4 r|
+  r4 dis'8. bis16 bis4 e8 dis|
+  fis4(e2) dis8. cis16|
+  
+  \time 6/8
+  dis4. r4 r8^"Andantino"
   r2.
-  gis'4.(gis4) fis8
+  gis,4.(gis4) fis8
   fis4. e4 dis8
   dis4. cis4 r8
   r2.
@@ -167,10 +181,18 @@ highvoice=\relative c' {
   b4 r8 r4 r8
   r2.
   
-  \bar"||"
+  %end of the singing part
+  r2.*4
      }
 
 texta = \lyricmode{
+  Le bon -heur op pres se mon a -me!
+  Je ne puis y son ger
+  sans trem bler mal gré moi
+  
+  Clau di o! Clau di o
+  Je vais donc être à toi
+  
   Nuit pai -sible et se -rei -ne
   La Lu -ne dou ce rei -ne
   Qui plane en sou -ri -ant.
@@ -236,9 +258,24 @@ texta = \lyricmode{
 
 medvoice=\relative c' { 
         \clef treble
-        \time 6/8
+        \time 4/4
 	\key e \major
   \autoBeamOff
+  r1
+  r1
+  r1
+  r16 fis fis gis a8.cis,16  cis8 bis8 r4
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  
+  \time 6/8
+  r2.|
   r2.|
   e4.(e4) dis8 |
   dis4. cis4 b8|
@@ -389,10 +426,13 @@ medvoice=\relative c' {
   gis4 r8 r4 r8
   r2.
 
+  %end of the singing part
+  r2.*4|
      }
 
      
 textb =\lyricmode{
+  Vous sou pi rez ma da me
   Nuit pai -sible et se -rei -ne
   La Lu -ne dou ce rei -ne
   Qui plane en sou -ri -ant.
@@ -458,9 +498,24 @@ textb =\lyricmode{
 upper = \relative c {
         \clef treble
         \key e \major
-        \time 6/8
+        \time 4/4
         \autoBeamOff
-        cis'16_\pp([gis') e( cis) gis'( e)] cis16([gis') e (cis) gis'( e)]|
+          <<{<gis'' e>2^"Lento"\( (<gis e>8.)[<a fis>16]\) <fis dis>8.([<gis e>16])}\\{b,4 r4 b r}>>|
+         <fis' dis>2(<e cis>4.) <dis b>8|
+         <dis b>2(<cis a>4) r|
+         r2 dis4 r|
+         <e cis>2(<dis b>)|
+         <cis a>2 r2|
+         <fis dis> (<fis dis>4) r|
+         <<{gis'2\( (gis8.)[a16]\) fis8.([gis16])}\\{bis,2\( (bis8.)[cis16]\) bis8.([dis16])}>>|
+         <e cis>4 r4 r2|
+         <gis, dis bis>2 r2|
+         <<{gis2 (a}\\{e1(}>>|
+
+
+\time 6/8
+        <<{gis2.)}\\{dis4) r8 r4 r8}>>|
+        cis16_\pp([gis') e( cis) gis'( e)] cis16([gis') e (cis) gis'( e)]|
         cis16([gis') e (cis) gis'( e)] cis([ a') fis8] r8|
         dis16[(a') fis (dis) a' (fis)] cis[a' fis8] r8|
         dis16[(b') fis (dis) b' (fis)] cis[(a')  fis(cis)] cis'8|
@@ -745,10 +800,26 @@ upper = \relative c {
 lower = \relative c' {
         \clef bass
         \key e \major
-        \time 6/8
+        \time 4/4
         \autoBeamOff
+        e,4 r4 gis, r|
+        <fis' a,>4 r <fis a,> r|
+        <fis a,>1(_\>|
+        <fis a,>4)_\! r <gis gis,> r|
+        r1
+        r1|
+        <dis b>2 \( <cis a>|
+        <dis bis gis>4\) <dis gis,> <dis gis,> <dis gis,>|
+        
+        <e cis a>2 r2 |
+        gis2 r2|
+        <<{cis1}\\{cis,1\(}>>
+
+
+\time 6/8
+        <<{gis'2.}\\{bis,4\) r8 r4 r8}>>|
         r2.
-        <gis e cis>4 r8 <gis e gis,>4 r8
+        <gis' e cis>4 r8 <gis e gis,>4 r8
         <fis a,>4 r8 <fis a,>4 r8
         <fis a,>4 r8 <fis a,>4
         \clef treble
