@@ -792,9 +792,14 @@ upper = \relative c {
         <a cis>8[( <b dis> <cis e>] <dis fis>[ <e gis> <fis a>]) |
         <dis b'>4 r8 <cis e>4 <cis e>8 |
         <e gis>4._(^( <dis fis>8))[ <b e> <b dis>] |
-        <a fis'>4.( <gis e'>4 <e gis>8 |
-        <gis b>4. r4 r8
-        
+        <a fis'>4.( <gis e'>4) <e gis>8 |
+        <gis b>4. r4 r8 |
+
+        \repeat tremolo 8 {<e' gis b>32. e'} |
+        \repeat tremolo 8 {<fis, a c!>32. dis'} |
+        \repeat tremolo 8 {<f, gis b>32. d'} |
+        \repeat tremolo 8 {<e, g ais>32. cis'} |
+        \repeat tremolo 8 {<dis, fis a!>32. c'} |
 }
 
 lower = \relative c' {
@@ -1110,6 +1115,12 @@ lower = \relative c' {
         b[ e, gis] b[ fis b] |
         b[ e, b'] e,[ b' e,] |
         r8 b'[ e,] <fis' a>[( <e gis> <dis fis>])
+
+        e,8 b''[ e,] e, b''[ e,]
+        e,8 b''[ e,] e, b''[ e,]
+        e,8 b''[ e,] e, b''[ e,]
+        e,8 b''[ e,] e, b''[ e,]
+        e,8 b''[ e,] e, b''[ e,]
 }
 
 \score {
