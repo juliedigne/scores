@@ -800,7 +800,12 @@ upper = \relative c {
         \repeat tremolo 8 {<f, gis b>32. d'} |
         \repeat tremolo 8 {<e, g ais>32._\markup {\italic {Perdendo}} cis'} |
         \repeat tremolo 8 {<dis, fis a!>32. c'} |
-
+        
+        <<{\repeat tremolo 4 {gis32. b32.} \repeat tremolo 4 {<fis dis>32. a32.}}\\{e4. c4.}>>|
+        <<{\repeat tremolo 4 {e32. gis32.} \repeat tremolo 4 {<dis b>32. fis32.}}\\{b,4. a4.}>>|
+        <e' b gis>4 r8 <e b gis>4 r8|
+        <e b gis>2.(|
+        <e b gis>8) r8 r8 r4 r8 \bar "|."
 }
 
 lower = \relative c' {
@@ -1122,6 +1127,12 @@ lower = \relative c' {
         e,8 b''[ e,] e, b''[ e,]
         e,8 b''[ e,] e, b''[ e,]
         e,8 b''[ e,] e, b''[ e,]
+        
+        e,8 b'[e,] e, b''[e,]|
+        e8 b'[e,] e, b''[e,]|
+        e8 b'[e,] e, b''[e,]|
+        e8 b'[e,] r8 r4|
+        <e e,>8 r8 r8 r4 r8
 }
 
 \score {
