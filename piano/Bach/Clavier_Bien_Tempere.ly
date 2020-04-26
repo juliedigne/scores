@@ -42,8 +42,8 @@ right = \relative do'' {
   r8 sol,16-1 do16-2 mi16-4 sol,16 do16 mi16 r8 sol,16 do16 mi16 sol,16 do16 mi16
   r8 sib16-1 do16-2 mi16-4 sib16 do16 mi16 r8 sib16 do16 mi16 sib16 do16 mi16
   | \break
-  r8 la,16 do16-2 mi16-4 sol,16 do16 mi16 r8 sol,16 do16 mi16 sol,16 do16 mi16
-  r8 la,16 do16-2 mib16 sol,16 do16 mib16 r8 sol,16 do16 mib16 sol,16 do16 mib16
+  r8 la,16 do16-2 mi16-4 la,16 do16 mi16 r8 la,16 do16 mi16 la,16 do16 mi16
+  r8 la,16 do16-2 mib16 la,16 do16 mib16 r8 la,16 do16 mib16 la,16 do16 mib16
   r8 si16-1 do16-2 re16-3 si16 do16 re16 r8 si16 do16 re16 si16 do16 re16
   | \break
   r8 sol,16 si16-2 re16 sol,16 si16 re16 r8 sol,16 si16 re16 sol,16 si16 re16
