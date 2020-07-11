@@ -18,11 +18,6 @@ right = \relative do' {
     \break
     s8 sib,16 fa'16 lab16 sib,16 fa'16 lab16 s8 sib,16 fa'16 lab16 sib,16 fa'16 lab16 |
     s8 sib,16 mib16 sol16 sib,16 mib16 sol16 s8 sib,16 mib16 sol16 sib,16 mib16 sol16 |
-
-    %s8 sib,16-1 mib16-2 sol16-4 sib,16 mib16 sol16 s8 sib,16 mib16 sol16 sib,16 mib16 sol16 |
-    %s8 do,16-1 fa16-3 lab16-5 do,16 fa16 lab16 s8 do,16 fa16 lab16 do,16 fa16 lab16 |
-    %s8 sib,16 fa'16 lab16 sib,16 fa'16 lab16 s8 sib,16 fa'16 lab16 sib,16 fa'16 lab16 |
-    %s8 sib,16 mib16 sol16 sib,16 mib16 sol16 s8 sib,16 mib16 sol16 sib,16 mib16 sol16 |
   }
 
   s8 do,16-1 sol'16-2 do16-5 do,16 sol'16 do16 s8 do,16 sol'16 do16 do,16 sol'16 do16 |
@@ -35,7 +30,7 @@ right = \relative do' {
   s8 fa,16-1 sib16-2 re16-4 fa,16 sib16 re16 s8 fa,16 sib16 re16 fa,16 sib16 re16 |
   s8 sol,16-1 sib16-2 mi16-5 sol,16 sib16 mi16 s8 sol,16 sib16 mi16 sol,16 sib16 mi16 |
   s8 fa,16 do'16-3 fa16 fa,16 do'16 fa16 s8 fa,16 do'16 fa16 fa,16 do'16 fa16 |
-  s8 fa,16 lab16-2 re16-4 fa,16 lab16 re16 s8 fa,16 lab16 re16 fa,16 lab16 re16 |
+  s8 fa,16 lab16-2 re16-5 fa,16 lab16 re16 s8 fa,16 lab16 re16 fa,16 lab16 re16 |
   s8 mib,16 sib'16-3 mib16 mib,16 sib'16 mib16 s8 mib,16 sib'16 mib16 mib,16 sib'16 mib16 |
   \clef bass
   s8 do,16-1 mib16-2 lab16-4 do,16 mib16 lab16 s8 do,16 mib16 lab16 do,16 mib16 lab16 |
@@ -96,27 +91,6 @@ left = \relative do' {
       \\
       {mib2 mib2}
     >>
-
-    %<<
-    %  {s16 sol8.( sol4) s16 sol8.( sol4)}
-    %  \\
-    %  {mib2-3 mib2}
-    %>>
-    %<<
-    %  {s16 fa8.( fa4) s16 fa8.( fa4)}
-    %  \\
-    %  {mib2 mib2}
-    %>>
-    %<<
-    %  {s16 fa8.( fa4) s16 fa8.( fa4)}
-    %  \\
-    %  {re2 re2}
-    %>>
-    %<<
-    %  {s16 sol8.( sol4) s16 sol8.( sol4)}
-    %  \\
-    %  {mib2 mib2}
-    %>>
   }
 
   <<
@@ -165,7 +139,7 @@ left = \relative do' {
     {lab2 lab2}
   >>
   <<
-    {s16 do8.( do4) s16 do8.( do4)}
+    {s16 dob8.( dob4) s16 dob8.( dob4)}
     \\
     {lab2 lab2}
   >>
@@ -175,7 +149,7 @@ left = \relative do' {
     {sol2-3 sol2-2}
   >>
   <<
-    {s16 sib8.( sib4) s16 sib8.( sib4)}
+    {s16 lab8.( lab4) s16 lab8.( lab4)}
     \\
     {sol2 sol2}
   >>
