@@ -17,44 +17,51 @@ right = \relative do' {
   s8 sib,16 fa'16 lab16 sib,16 fa'16 lab16 s8 sib,16 fa'16 lab16 sib,16 fa'16 lab16 |
   \break
   s8 sib,16 mib16 sol16 sib,16 mib16 sol16 s8 sib,16 mib16 sol16 sib,16 mib16 sol16 |
-
   r8 sib,16-1 mib16-2 sol16-4 sib,16 mib16 sol16 r8 sib,16 mib16 sol16 sib,16 mib16 sol16 |
   s8 do,16-1 fa16-3 lab16-5 do,16 fa16 lab16 s8 do,16 fa16 lab16 do,16 fa16 lab16 |
+
   s8 sib,16 fa'16 lab16 sib,16 fa'16 lab16 s8 sib,16 fa'16 lab16 sib,16 fa'16 lab16 |
   s8 sib,16 mib16 sol16 sib,16 mib16 sol16 s8 sib,16 mib16 sol16 sib,16 mib16 sol16 |
-
   s8 do,16-1 sol'16-2 do16-5 do,16 sol'16 do16 s8 do,16 sol'16 do16 do,16 sol'16 do16 |
-  %\break
+
   s8 la,16-1 do16-2 fa16-5 la,16 do16 fa16 s8 la,16 do16 fa16 la,16 do16 fa16 |
   s8 sib,16 fa'16 sib16 sib,16 fa'16 sib16 s8 sib,16 fa'16 sib16 sib,16 fa'16 sib16 |
   s8 sol,16-1 sib16-2 mib16-4 sol,16 sib16 mib16 s8 sol,16 sib16 mib16 sol,16 sib16 mib16 |
+
   s8 sol,16 sib16 mib16 sol,16 sib16 mib16 s8 sol,16 sib16 mib16 sol,16 sib16 mib16 |
   s8 fa,16-1 la16-2 mib'16-5 fa,16 la16 mib'16 s8 fa,16 la16 mib'16 fa,16 la16 mib'16 |
   s8 fa,16-1 sib16-2 re16-4 fa,16 sib16 re16 s8 fa,16 sib16 re16 fa,16 sib16 re16 |
+
   s8 sol,16-1 sib16-2 mi16-5 sol,16 sib16 mi16 s8 sol,16 sib16 mi16 sol,16 sib16 mi16 |
   s8 fa,16 do'16-3 fa16 fa,16 do'16 fa16 s8 fa,16 do'16 fa16 fa,16 do'16 fa16 |
   s8 fa,16 lab16-2 re16-5 fa,16 lab16 re16 s8 fa,16 lab16 re16 fa,16 lab16 re16 |
+
   s8 mib,16 sib'16-3 mib16 mib,16 sib'16 mib16 s8 mib,16 sib'16 mib16 mib,16 sib'16 mib16 |
   \clef bass
   s8 do,16-1 mib16-2 lab16-4 do,16 mib16 lab16 s8 do,16 mib16 lab16 do,16 mib16 lab16 |
   s8 do,16 mib16 lab16 do,16 mib16 lab16 s8 do,16 mib16 lab16 do,16 mib16 lab16 |
+
   s8 sib,16-1 re16-2 lab'16-5 sib,16 re16 lab'16 s8 sib,16 re16 lab'16 sib,16 re16 lab'16 |
   s8 sib,16-1 mib16-2 sol16-4 sib,16 mib16 sol16 s8 sib,16 mib16 sol16 sib,16 mib16 sol16 |
   s8 reb16-1 mib16-2 sol16-4 reb16 mib16 sol16 s8 reb16 mib16 sol16 reb16 mib16 sol16 |
+
   s8 do,16 mib16 sol16 do,16 mib16 sol16 s8 do,16 mib16 sol16 do,16 mib16 sol16 |
   s8 do,16 mib16-2 solb16-3 do,16 mib16 solb16 s8 do,16 mib16 solb16 do,16 mib16 solb16 |
   s8 re!16 mib16-2 solb16-3 re16 mib16 solb16 s8 re16 mib16 solb16 re16 mib16 solb16 |
+
   s8 re16 mib16-2 fa16-3 re16 mib16 fa16 s8 re16 mib16 fa16 re16 mib16 fa16 |
   s8 sib,16 re16 fa16 sib,16 re16 fa16 s8 sib,16 re16 fa16 sib,16 re16 fa16 |
   s8 sib,16 mib16 sol16 sib,16 mib16 sol16 s8 sib,16 mib16 sol16 sib,16 mib16 sol16 |
+
   s8 sib,16 mib16 lab16 sib,16 mib16 lab16 s8 sib,16 mib16 lab16 sib,16 mib16 lab16 |
   s8 sib,16 re16 lab'16 sib,16 re16 lab'16 s8 sib,16 re16 lab'16 sib,16 re16 lab'16 |
   s8 do,16-1 mib16-2 la16-5 do,16 mib16 la16 s8 do,16 mib16 la16 do,16 mib16 la16 |
+
   s8 sib,16 mib16-2 sib'16 sib,16 mib16 sib'16 s8 sib,16 mib16 sib'16 sib,16 mib16 sib'16 |
   s8 sib,16 mib16 lab16 sib,16 mib16 lab16 s8 sib,16 mib16 lab16 sib,16 mib16 lab16 |
   s8 sib,16 re16 lab'16 sib,16 re16 lab'16 s8 sib,16 re16 lab'16 sib,16 re16 lab'16 |
-  s8 sib,16 reb16 sol16 sib,16 reb16 sol16 s8 sib,16 reb16 sol16 sib,16 reb16 sol16 |
 
+  s8 sib,16 reb16 sol16 sib,16 reb16 sol16 s8 sib,16 reb16 sol16 sib,16 reb16 sol16 |
   s8 lab,16 do16 mib16 lab16 mib16 do16 mib16-3 do16-2 lab16-1 do16-3 lab16-2 fa16-1 lab-2 fa-1 |
   \clef treble
   s8 sib'16 re fa lab fa re fa re sib-1 re-5 fa,-1 lab-3 sol-2 fa-1 |
@@ -404,4 +411,10 @@ voice = \lyricmode {
   \midi {
     \tempo 4=100
   }
+}
+\paper {
+  %annotate-spacing = ##t
+  %system-system-spacing.basic-distance = #4
+  system-system-spacing.minimum-distance = #4
+  system-system-spacing.padding = #0.2
 }
