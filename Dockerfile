@@ -1,13 +1,13 @@
-FROM debian:buster-slim
-RUN apt-get update && apt-get install -y \
+FROM ubuntu:20.04
+ENV TZ=Europe/Paris
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone && \
+    apt-get update && apt-get install -y \
     lilypond \
     make \
     && rm -rf /var/lib/apt/lists/* \
-    && groupadd builder && useradd -g builder builder
-USER builder
-WORKDIR /home/builder
+    && mkdir -p /media/sources
 CMD make
 # Build:
 # docker build -t scores_builder .
 # Run:
-# docker run -it -v $PWD:/home/builder/ -u $(id -u ${USER}):$(id -g ${USER}) --rm scores_builder
+# docker run -it -v $PWD:/media/sources/ -u $(id -u ${USER}):$(id -g ${USER}) --rm scores_builder
