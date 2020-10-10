@@ -5,9 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to compile scores using lilypond in a docker
     steps:
-    - name: Compilation step
-      id: compilation
-      uses: nicovince/scores@913d60afa44713c852347cd2020de71be17c212b
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Compilation step
+        id: compilation
+        uses: ./ # Uses action in the root directory
     # Use the output from the `hello` step
     #- name: Get the output time
     #  run: echo "The time was ${{ steps.hello.outputs.time }}"
