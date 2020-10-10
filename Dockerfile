@@ -6,7 +6,7 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone &
     make \
     && rm -rf /var/lib/apt/lists/* \
     && mkdir -p /media/sources
-CMD make
+CMD ls -l && pwd
 # Build:
 # docker build -t scores_builder .
 # Run:
