@@ -10,7 +10,6 @@ jobs:
       - name: Compilation step
         id: compilation
         uses: nicovince/lilypond-action@0db0671295c08476cfe3a66f8beeb65443ebf1a3
-    # Use the output from the `compilation` step
-    - name: Get the output of compilation
-      run: echo "output files ${{ steps.compilation.outputs.pdfs }}"
+      - name: Get the output of compilation
+        run: echo "output files ${{ steps.compilation.outputs.pdfs }}"
 
