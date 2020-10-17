@@ -10,4 +10,4 @@ CMD make
 # Build:
 # docker build -t scores_builder .
 # Run:
-# docker run -it -v $PWD:/media/sources/ -u $(id -u ${USER}):$(id -g ${USER}) --rm scores_builder
+# docker run -it -v $PWD:/media/sources/ -u $(id -u ${USER}):$(id -g ${USER}) -w /media/sources --rm scores_builder
