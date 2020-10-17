@@ -1,3 +1,4 @@
+![Lilypond Compilation](https://github.com/nicovince/lilypond-action/workflows/Lilypond%20Compiler/badge.svg)
 # scores
 Some public domain scores written in lilypond
 
