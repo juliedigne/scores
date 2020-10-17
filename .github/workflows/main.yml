@@ -17,4 +17,11 @@ jobs:
           ly_files: ${{ steps.get_ly.outputs.files }}
       - name: Get the output of compilation
         run: echo "output files ${{ steps.compilation.outputs.pdfs }}"
+      - name: Update release
+        uses: johnwbyrd/update-release@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          files: ${{ steps.compilation.outputs.pdfs }}
+
+
 
