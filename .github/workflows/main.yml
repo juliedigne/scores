@@ -9,8 +9,8 @@ jobs:
         uses: actions/checkout@v2
       - name: Compilation step
         id: compilation
-        uses: ./ # Uses action in the root directory
-    # Use the output from the `hello` step
-    #- name: Get the output time
-    #  run: echo "The time was ${{ steps.hello.outputs.time }}"
+        uses: nicovince/lilypond-action@0db0671295c08476cfe3a66f8beeb65443ebf1a3
+    # Use the output from the `compilation` step
+    - name: Get the output of compilation
+      run: echo "output files ${{ steps.compilation.outputs.pdfs }}"
 
