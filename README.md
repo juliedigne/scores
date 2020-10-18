@@ -1,3 +1,4 @@
+[![Lilypond Compilation](https://github.com/nicovince/scores/workflows/Build%20and%20Publish/badge.svg)](https://github.com/nicovince/scores/actions)
 # scores
 Some public domain scores written in lilypond
 

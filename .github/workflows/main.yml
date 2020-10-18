@@ -1,0 +1,28 @@
+name: Build and Publish
+on: [push]
+
+jobs:
+  scores_compilation:
+    runs-on: ubuntu-latest
+    name: A job to compile scores using lilypond in a docker
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Get Lilypond files
+        id: get_ly
+        run: echo "::set-output name=files::$(find ${{github.workspace}} -name "*.ly" -printf "%P\n" | xargs)"
+      - name: Compilation step
+        id: compilation
+        uses: nicovince/lilypond-action@9e67ad2f9889be6fcb3d865360b9b479bd876073
+        with:
+          ly_files: ${{ steps.get_ly.outputs.files }}
+      - name: Get the output of compilation
+        run: echo "output files ${{ steps.compilation.outputs.pdfs }}"
+      - name: Update release
+        uses: johnwbyrd/update-release@v1.0.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          files: ${{ steps.compilation.outputs.pdfs }}
+
+
+
