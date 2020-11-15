@@ -74,7 +74,7 @@ left = \relative do' {
   \partial 4 r4 |
   <sol_2 sib_1>2.\sustainOn |
   <re_5 fa_3 sib_1>\sustainOff \sustainOn |
-  <do_5 fa_2 la_1>~\sustainOff \sustainOn |
+  <do_5 fa_3 la_1>~\sustainOff \sustainOn |
   <do fa la> |
   <re_5 sol_2 sib_1>~\sustainOff \sustainOn |
   <re sol sib> |
@@ -83,7 +83,7 @@ left = \relative do' {
   <re fad la>2 r4\sustainOff |
   <sol_2 sib_1>2. \sustainOn |
   <re_5 fa!_3 sib_1>2. \sustainOff \sustainOn |
-  <do_5 fa_2 la_1>2.~ \sustainOff \sustainOn |
+  <do_5 fa_3 la_1>2.~ \sustainOff \sustainOn |
   <do fa la>2. |
 
   <mib_4 sol_2 sib_1> \sustainOff \sustainOn |
@@ -102,7 +102,7 @@ left = \relative do' {
   <re_5 fa_3 sib_1>2.~ \sustainOn |
 
   <re fa sib> \sustainOff \sustainOn |
-  <do_5 fa_2 la_1>~ \sustainOff \sustainOn |
+  <do_5 fa_3 la_1>~ \sustainOff \sustainOn |
   <do fa la> |
   <mib_4 sol_2 sib_1> \sustainOff \sustainOn |
   <re_5 fad_3 la_1> \sustainOff \sustainOn |
