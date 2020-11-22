@@ -95,7 +95,7 @@ left = \relative do' {
 
   <do_5 fa_2 la_1>2.~ \sustainOff \sustainOn |
   <do fa la> |
-  <sib_4 mib_2 sol_1>~ \sustainOff \sustainOn |
+  <sib_54 mib_32 sol_1>~ \sustainOff \sustainOn |
   <sib mib sol> |
   <la_5 re_2 fad_1>~ \sustainOff \sustainOn |
   <la re fad>2 r4 \sustainOff |
