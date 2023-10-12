@@ -17,7 +17,7 @@ right = \relative do' {
   s8 sib,16 fa'16 lab16 sib,16 fa'16 lab16 s8 sib,16 fa'16 lab16 sib,16 fa'16 lab16 |
   \break
   s8 sib,16 mib16 sol16 sib,16 mib16 sol16 s8 sib,16 mib16 sol16 sib,16 mib16 sol16 |
-  r8 sib,16-1 mib16-2 sol16-4 sib,16 mib16 sol16 r8 sib,16 mib16 sol16 sib,16 mib16 sol16 |
+  s8 sib,16-1 mib16-2 sol16-4 sib,16 mib16 sol16 s8 sib,16 mib16 sol16 sib,16 mib16 sol16 |
   s8 do,16-1 fa16-3 lab16-5 do,16 fa16 lab16 s8 do,16 fa16 lab16 do,16 fa16 lab16 |
 
   s8 sib,16 fa'16 lab16 sib,16 fa'16 lab16 s8 sib,16 fa'16 lab16 sib,16 fa'16 lab16 |
@@ -101,7 +101,7 @@ left = \relative do' {
     {mib2 mib2}
   >>
   <<
-    {r16 sol8.( sol4) r16 sol8.( sol4)}
+    {s16 sol8.( sol4) s16 sol8.( sol4)}
     \\
     {mib2-3 mib2}
   >>
@@ -141,6 +141,7 @@ left = \relative do' {
     \\
     {re2-2 re2}
   >>
+
   <<
     {s16 mib8.-1( mib4) s16 mib8.-1( mib4)}
     \\
@@ -156,6 +157,7 @@ left = \relative do' {
     \\
     {sib2-3 sib2-2}
   >>
+
   <<
     {s16 reb8.( reb4) s16 reb8.( reb4)}
     \\
@@ -171,6 +173,7 @@ left = \relative do' {
     \\
     {lab2 lab2}
   >>
+
   <<
     {s16 sib8.(_1 sib4) s16 sib8.( sib4)}
     \\
@@ -186,6 +189,7 @@ left = \relative do' {
     \\
     {fa2-3 fa2-2}
   >>
+
   <<
     {s16 fa8._2( fa4) s16 fa8.( fa4)}
     \\
@@ -201,13 +205,14 @@ left = \relative do' {
     \\
     {mib,2 mib2}
   >>
+
   <<
     {s16 lab8.(_1 lab4) s16 lab8.( lab4)}
     \\
     {lab,2-5 lab2}
   >>
   <<
-    {s16 mib'8.(_2 mib4) s16 mib8.( mib4)}
+    {s16 mib'8.(_1 mib4) s16 mib8.( mib4)}
     \\
     {la,2-4 la2}
   >>
@@ -216,10 +221,11 @@ left = \relative do' {
     \\
     {sib,2-3 sib2-4}
   >>
+
   <<
     {s16 lab'8.( lab4) s16 lab8.( lab4)}
     \\
-    {dob,2-4 dob2}
+    {dob,2-3 dob2-4}
   >>
   <<
     {s16 lab'8.( lab4) s16 lab8.( lab4)}
@@ -231,6 +237,7 @@ left = \relative do' {
     \\
     {sib,2 sib2}
   >>
+
   <<
     {s16 fa'8.(_2 fa4) s16 fa8.( fa4)}
     \\
@@ -246,6 +253,7 @@ left = \relative do' {
     \\
     {sib,2 sib2}
   >>
+
   <<
     {s16 sol'8.( sol4) s16 sol8.( sol4)}
     \\
@@ -261,6 +269,7 @@ left = \relative do' {
     \\
     {sib,2-2 sib2}
   >>
+
   <<
     {s16 mib8.( mib4) s16 mib8.( mib4)}
     \\
@@ -271,6 +280,7 @@ left = \relative do' {
     \\
     {mib,1}
   >>
+
   <<
     {s16 re'8.( re4)( re2)}
     \\
