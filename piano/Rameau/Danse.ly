@@ -29,7 +29,7 @@ right = \relative do'' {
   \break
 
   si r mi8^3( re) |
-  fad4\staccato( mi\staccato si\staccato) |
+  fad4\staccato( mi\staccato re\staccato) |
   dod\staccato( si\staccato dod\staccato) |
   dod\staccato( re\staccato mi\staccato) |
   si r dod8^4_\mf( si) |
